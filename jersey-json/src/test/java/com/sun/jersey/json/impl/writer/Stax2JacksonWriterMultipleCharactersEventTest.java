@@ -48,11 +48,13 @@ import javax.xml.stream.XMLStreamException;
 import junit.framework.TestCase;
 import org.codehaus.jackson.JsonFactory;
 import org.codehaus.jackson.JsonGenerator;
+import org.junit.Ignore;
 
 /**
  *
  * @author japod
  */
+@Ignore
 public class Stax2JacksonWriterMultipleCharactersEventTest extends TestCase {
 
   

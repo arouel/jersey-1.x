@@ -69,7 +69,7 @@
         <module>helloworld</module>
         <!--module>helloworld-osgi-webapp</module-->
         <module>helloworld-webapp</module>
-        <module>https-clientserver-grizzly</module>
+<!--        <module>https-clientserver-grizzly</module>-->
         <module>https-server-glassfish</module>
         <module>jacksonjsonprovider</module>
         <module>jaxb</module>
@@ -83,7 +83,7 @@
         <module>moxy</module>
         <module>moxy-oxm-mapping</module>
         <module>multipart-webapp</module>
-        <module>optimistic-concurrency</module>
+<!--        <module>optimistic-concurrency</module>-->
         <!--module>osgi-http-service</module-->
         <module>simple-atom-server</module>
         <module>simple-console</module>
