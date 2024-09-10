@@ -57,7 +57,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>core</module>
-        <module>docs-and-samples</module>
         <module>osgi-modules</module>
     </modules>
     <build>

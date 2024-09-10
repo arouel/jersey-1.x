@@ -56,8 +56,5 @@
     </description>
     <packaging>pom</packaging>
     <modules>
-        <module>jax-rs-ri</module>
-        <module>jax-rs-ri-source</module>
-        <module>jax-rs-ri-source-licensee</module>
     </modules>
 </project>

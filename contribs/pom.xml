@@ -59,9 +59,7 @@
     </description>
     <modules>
 	<module>ant-wadl-task</module>
-        <module>spring</module>
         <module>maven-wadl-plugin</module>
-        <module>wadl-resourcedoc-doclet</module>
         <module>jersey-multipart</module>
         <module>jersey-atom-abdera</module>
         <module>jersey-apache-client</module>
@@ -73,7 +71,5 @@
         <module>jersey-guice</module>
         <module>jersey-wadl-json-schema</module>
         <module>jersey-oauth</module>
-        <module>scala</module>
-        <module>bill-burke-book</module>
     </modules>
 </project>
