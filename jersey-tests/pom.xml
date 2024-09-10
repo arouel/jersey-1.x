@@ -439,6 +439,7 @@
                     </excludes>
                     <forkMode>always</forkMode>
                     <enableAssertions>false</enableAssertions>
+                    <argLine>--add-opens java.base/java.net=ALL-UNNAMED</argLine>
                 </configuration>
                 <executions>
                     <execution>
