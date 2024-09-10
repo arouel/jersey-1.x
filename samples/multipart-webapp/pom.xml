@@ -126,6 +126,12 @@
             </dependencies>
         </profile>
     </profiles>
+    <dependencies>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+        </dependency>
+    </dependencies>
     <build>
         <finalName>multipart-webapp</finalName>
         <plugins>

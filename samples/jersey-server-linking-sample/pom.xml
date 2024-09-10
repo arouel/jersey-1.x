@@ -122,6 +122,12 @@
             </dependencies>
         </profile>
     </profiles>
+    <dependencies>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+        </dependency>
+    </dependencies>
     <build>
         <finalName>jersey-server-linking-sample</finalName>
         <plugins>
