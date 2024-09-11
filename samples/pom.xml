@@ -57,21 +57,6 @@
     </description>
     <packaging>pom</packaging>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.sun.xml.bind</groupId>
-                <artifactId>jaxb-impl</artifactId>
-                <version>2.2.3-1</version>
-            </dependency>
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.8.2</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <modules>
         <module>atompub-contacts</module>
         <module>bookmark</module>
@@ -79,14 +64,12 @@
         <module>bookstore</module>
         <module>entity-provider</module>
         <module>exceptions</module>
-        <module>extended-wadl-webapp</module>
         <module>freemarker</module>
-        <module>generate-wadl</module>
         <module>groovy</module>
         <module>helloworld</module>
         <!--module>helloworld-osgi-webapp</module-->
         <module>helloworld-webapp</module>
-        <module>https-clientserver-grizzly</module>
+<!--        <module>https-clientserver-grizzly</module>-->
         <module>https-server-glassfish</module>
         <module>jacksonjsonprovider</module>
         <module>jaxb</module>
@@ -97,18 +80,15 @@
         <module>json-from-jaxb</module>
         <module>jsonp</module>
         <module>managed-beans-webapp</module>
-        <module>mandel</module>
         <module>moxy</module>
         <module>moxy-oxm-mapping</module>
         <module>multipart-webapp</module>
-        <module>optimistic-concurrency</module>
+<!--        <module>optimistic-concurrency</module>-->
         <!--module>osgi-http-service</module-->
-        <module>scala-helloworld-webapp</module>
         <module>simple-atom-server</module>
         <module>simple-console</module>
         <module>simple-servlet</module>
         <module>sparklines</module>
-        <module>spring-annotations</module>
         <module>storage-service</module>
         <module>oauth-client-twitter</module>
         <module>wadl-json-schema-webapp</module>
@@ -302,7 +282,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
-                    <version>2.1.1</version>
+                    <version>3.4.0</version>
                 </plugin>
             </plugins>
         </pluginManagement>

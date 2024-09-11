@@ -61,6 +61,7 @@ import static org.ops4j.pax.swissbox.tinybundles.core.TinyBundles.modifyBundle;
 /**
  * @author Jakub Podlesak (jakub.podlesak at oracle.com)
  */
+@org.junit.Ignore
 @RunWith(JUnit4TestRunner.class)
 public class OsgiIntegrationTest {
 

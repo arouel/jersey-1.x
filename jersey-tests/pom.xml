@@ -279,7 +279,7 @@
         <dependency>
             <groupId>woodstox</groupId>
             <artifactId>wstx-asl</artifactId>
-            <version>3.2.1</version>
+            <version>3.2.0</version>
             <type>jar</type>
             <scope>test</scope>
         </dependency>
@@ -439,6 +439,7 @@
                     </excludes>
                     <forkMode>always</forkMode>
                     <enableAssertions>false</enableAssertions>
+                    <argLine>--add-opens java.base/java.net=ALL-UNNAMED</argLine>
                 </configuration>
                 <executions>
                     <execution>

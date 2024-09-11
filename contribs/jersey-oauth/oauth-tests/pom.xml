@@ -254,6 +254,9 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <argLine>--add-opens java.base/java.net=ALL-UNNAMED</argLine>
+                </configuration>
             </plugin>
             <!-- use pax exam maven plugin -->
             <plugin>
