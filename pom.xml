@@ -159,23 +159,6 @@
                             <skip>true</skip>
                         </configuration>
                     </plugin>
-                    <plugin>
-                        <groupId>org.sonatype.plugins</groupId>
-                        <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <id>default-deploy</id>
-                                <phase>deploy</phase>
-                                <goals>
-                                    <goal>deploy</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                        <configuration>
-                            <serverId>jvnet-nexus-staging</serverId>
-                            <nexusUrl>https://maven.java.net/</nexusUrl>
-                        </configuration>
-                    </plugin>
                 </plugins>
             </build>
         </profile>
