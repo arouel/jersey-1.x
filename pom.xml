@@ -505,7 +505,7 @@
                         <preparationGoals>${release.preparationGoals}</preparationGoals>
                         <pushChanges>false</pushChanges>
                         <useReleaseProfile>false</useReleaseProfile>
-                        <arguments>${release.tests.args} ${release.arguments}</arguments>
+                        <arguments>${release.tests.args}</arguments>
                     </configuration>
                 </plugin>
 
