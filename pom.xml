@@ -76,8 +76,8 @@
         <url>http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/</url>
     </ciManagement>
     <scm>
-        <connection>scm:git:git://java.net/jersey~code-1_x</connection>
-        <developerConnection>scm:git:ssh://git.java.net/jersey~code-1_x</developerConnection>
+        <connection>scm:git:git://github.com/arouel/jersey-1.x.git</connection>
+        <developerConnection>scm:git:git@github.com:arouel/jersey-1.x.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
